@@ -113,7 +113,7 @@ def main():
     The main entry point of the application.
     """
     st.set_page_config(layout="wide", page_title="Cover Letter Generator & Assistant", page_icon="📄")
-    groq_api_key = os.environ['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']
+    groq_api_key = os.environ['GROQ_API_KEY']
 
     initialize_session_state()
 
